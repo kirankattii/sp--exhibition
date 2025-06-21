@@ -1,0 +1,136 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  margin-top: 70px;
+}
+
+.video {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.overlayText {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.overlayText h2 {
+  font-family: 'Gotham';
+  font-size: 42px;
+  font-family: 'Samantha';
+  letter-spacing: 4px;
+  font-weight: 600;
+
+
+}
+
+.playIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 5rem;
+  color: white;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupVideo {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+}
+
+@media(max-width:1000px) {
+  .overlayText {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+
+  }
+
+  .playIcon {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    margin-top: 70px;
+  }
+}
+
+
+
+@media(max-width:600px) {
+  .overlayText {
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+
+  }
+
+  .playIcon {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    /* font-size: 5rem; */
+    color: white;
+  }
+
+  .overlayText h2 {
+    font-family: 'Gotham';
+    font-size: 32px;
+    font-family: 'Samantha';
+    letter-spacing: 4px;
+    font-weight: 600;
+
+
+  }
+
+  .video {
+    width: 98%;
+  }
+
+}
