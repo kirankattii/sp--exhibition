@@ -67,9 +67,6 @@ import exhibitions21 from "./exhibition/exhibition21.jpg";
 import exhibitions22 from "./exhibition/exhibition22.jpg";
 import exhibitions23 from "./exhibition/exhibition23.jpg";
 import exhibitions24 from "./exhibition/exhibition24.jpg";
-import exhibitions25 from "./exhibition/exhibition25.jpg";
-import exhibitions26 from "./exhibition/exhibition26.jpg";
-import exhibitions27 from "./exhibition/exhibition27.jpg";
 import exhibitions28 from "./exhibition/exhibition28.jpg";
 import exhibitions29 from "./exhibition/exhibition29.jpg";
 import exhibitions30 from "./exhibition/exhibition30.jpeg";
@@ -218,9 +215,7 @@ export const allExhibition = [
   exhibitions22,
   exhibitions23,
   exhibitions24,
-  exhibitions25,
-  exhibitions26,
-  exhibitions27,
+
   exhibitions28,
   exhibitions29,
   exhibitions30,
