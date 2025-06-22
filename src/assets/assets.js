@@ -102,15 +102,15 @@ import exhibition56 from "./exhibition/exhibiti6on56.jpeg";
 import exhibition57 from "./exhibition/exhibition57.jpeg";
 import exhibition58 from "./exhibition/exhibition58.jpeg";
 import exhibition59 from "./exhibition/exhibition59.jpeg";
-import new_logo from './new_logo.png'
-import new_logo2 from './new_logo3.png'
+import new_logo from "./new_logo.png";
+import new_logo2 from "./new_logo3.png";
 import aboutUs from "./aboutus.jpg";
 import aboutUs2 from "./aboutus2.jpg";
 import homeLandingimage from "./landingimage.png";
 import landingMobile from "./landingMobile.png";
 import homeExhibition from "./home-exhibition-right.jpeg";
 import homeExhibition2 from "./home-exhibition-right2.jpeg";
-import homeGridImg from './homegridimg.jpeg'
+import homeGridImg from "./homegridimg.jpeg";
 
 export const assets = {
   logo,
@@ -149,7 +149,8 @@ export const assets = {
   new_logo2,
   banner4,
   exhibition59,
-  homeGridImg
+  homeGridImg,
+  exhibitions32,
 };
 
 export const recidential = [
@@ -374,19 +375,19 @@ export const exhibitionGallery = [
     logo: logo21,
     images: [exhibition43, exhibition42, exhibitions32, exhibition44],
   },
-//   {
-//     name: "Aabushan",
-//     logo: "",
-//     images: [
-//       exhibition46,
-//       exhibitions18,
-//       exhibitions27,
-//       exhibitions25,
-//       exhibitions31,
-//       exhibitions10,
-//       exhibition47,
-//     ],
-//   },
+  //   {
+  //     name: "Aabushan",
+  //     logo: "",
+  //     images: [
+  //       exhibition46,
+  //       exhibitions18,
+  //       exhibitions27,
+  //       exhibitions25,
+  //       exhibitions31,
+  //       exhibitions10,
+  //       exhibition47,
+  //     ],
+  //   },
   {
     name: "Navrathan",
     logo: logo10,
@@ -421,16 +422,16 @@ export const exhibitionGallery = [
   // 	logo: logo5,
   // 	images: []
   // },
-//   {
-//     name: "Anand Jewels & Diamonds",
-//     logo: "",
-//     images: [exhibition48, exhibition49],
-//   },
-//   {
-//     name: "Ananya Jewels",
-//     logo: "",
-//     images: [exhibitions22, exhibitions29],
-//   },
+  //   {
+  //     name: "Anand Jewels & Diamonds",
+  //     logo: "",
+  //     images: [exhibition48, exhibition49],
+  //   },
+  //   {
+  //     name: "Ananya Jewels",
+  //     logo: "",
+  //     images: [exhibitions22, exhibitions29],
+  //   },
 
   {
     name: "Anmolswarn",

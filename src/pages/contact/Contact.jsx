@@ -5,7 +5,7 @@ const Contact = () => {
 	return (
 		<div className={styles.container}>
 			<img
-				src={assets.banner4}
+				src={assets.exhibitions32}
 				alt=""
 				className={styles.ladingImg}
 			/>
