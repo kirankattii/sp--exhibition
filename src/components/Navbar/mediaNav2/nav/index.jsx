@@ -20,10 +20,7 @@ const navItems = [
 		title: "Gallery",
 		href: "/gallary",
 	},
-	{
-		title: "Client Projects",
-		href: "/clients",
-	},
+
 	{
 		title: "Contact Us",
 		href: "/contact",

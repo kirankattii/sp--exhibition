@@ -32,10 +32,6 @@ const App = () => {
             path="/gallary/exhibitiongallery"
             element={<ExhibitionGallery />}
           />
-          <Route path="/clients" element={<BrandListPage />} />
-          <Route path="/brand/:name" element={<BrandDetailPage />} />
-
-          <Route path="/exhibitor/:name" element={<ExhibitorDetail />} />
         </Routes>
       </div>
       <Footer />
