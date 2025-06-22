@@ -5,14 +5,14 @@ const Contact = () => {
 	return (
 		<div className={styles.container}>
 			<img
-				src={assets.contactLanding}
+				src={assets.banner4}
 				alt=""
 				className={styles.ladingImg}
 			/>
 			<h1 className={styles.letsChart}>Let's chat.</h1>
 			<div className={styles.contactus}>
 				<img
-					src={assets.contatbg}
+					src={assets.homeExhibition}
 					alt=""
 				/>
 				<div className={styles.formContainer}>

@@ -145,7 +145,8 @@ export const assets = {
   homeExhibition,
   homeExhibition2,
   new_logo,
-  new_logo2
+  new_logo2,
+  banner4
 };
 
 export const recidential = [
