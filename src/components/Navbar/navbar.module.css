@@ -66,3 +66,34 @@
     width: 110px;
   }
 }
+
+
+
+.container nav ul li a {
+  font-size: 18px;
+  font-weight: 100;
+  color: #4C4C4C;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.container nav ul li a:hover {
+  color: #B31731;
+  font-weight: 500;
+}
+
+.active {
+  color: #000;
+  font-weight: 600;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #B31731;
+}
