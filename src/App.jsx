@@ -11,6 +11,7 @@ import ExhibitionGallery from "./pages/exhibition/ExhibitionGallery.js/Exhibitio
 import ExhibitorDetail from "./pages/exhibition/ExhibitorDetail/ExhibitorDetail";
 import BrandListPage from "./pages/BrandListPage/BrandListPage";
 import BrandDetailPage from "./pages/BrandDetailPage/BrandDetailPage";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 const App = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const App = () => {
     <div>
       <Navbar />
       <div className="margintop">
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gallary" element={<Gallary />} />
