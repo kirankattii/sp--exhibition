@@ -9,8 +9,8 @@ const Contact = () => {
 				alt=""
 				className={styles.ladingImg}
 			/>
-			<h1 className={styles.letsChart}>Let's chat.</h1>
-			<div className={styles.contactus}>
+			{/* <h1 className={styles.letsChart}>Let's chat.</h1> */}
+			<div className={styles.contactus} style={{marginTop:"100px"}}>
 				<img
 					src={assets.homeExhibition}
 					alt=""

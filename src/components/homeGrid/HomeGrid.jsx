@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets"
 const homeGrid = () => {
 	return (
 		<div className={styles.container} style={{marginBottom:"100px"}}>
-			<h1>Our Works</h1>
+			<h1>Our Projects</h1>
 			<div className={styles.imageContainer}>
 				<div className={styles.rightImgContainer}>
 					<div style={{marginTop:"20px"}}>
