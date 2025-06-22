@@ -110,6 +110,7 @@ import homeLandingimage from "./landingimage.png";
 import landingMobile from "./landingMobile.png";
 import homeExhibition from "./home-exhibition-right.jpeg";
 import homeExhibition2 from "./home-exhibition-right2.jpeg";
+import homeGridImg from './homegridimg.jpeg'
 
 export const assets = {
   logo,
@@ -146,7 +147,9 @@ export const assets = {
   homeExhibition2,
   new_logo,
   new_logo2,
-  banner4
+  banner4,
+  exhibition59,
+  homeGridImg
 };
 
 export const recidential = [

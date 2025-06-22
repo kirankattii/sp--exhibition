@@ -66,7 +66,7 @@
 
 .homeImage2 img, .homeImage3 img {
   /* width: 50%; */
-  width: 350px;
+  width: 450px;
 
 }
 
@@ -93,7 +93,7 @@
   z-index: 1;
   position: absolute;
   top: 0;
-  width: 320px;
+  width: 420px;
 }
 
 .homeImage3 .imgborder3 {
@@ -106,7 +106,7 @@
   z-index: 1;
   position: absolute;
   top: 0;
-  width: 320px;
+  width: 420px;
 }
 
 /* =============logoContainer=========== */

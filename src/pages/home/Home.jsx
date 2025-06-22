@@ -39,7 +39,7 @@ const Home = () => {
 						</div>
 						<div className={styles.homeImage3}>
 							<img
-								src={assets.homeExhibition}
+								src={assets.exhibitions30}
 								alt=""
 							/>
 							<div className={styles.imgborder3}></div>
@@ -48,7 +48,7 @@ const Home = () => {
 					<div className={styles.beautifulImagesRight}>
 						<div className={styles.homeImage2}>
 							<img
-								src={assets.homeExhibition}
+								src={assets.homeGridImg}
 								alt=""
 							/>
 							<div className={styles.imgborder2}></div>

@@ -29,7 +29,7 @@ const homeGrid = () => {
 				<div className={styles.rightImgContainer}>
 					<div style={{marginTop:"20px"}}>
 						<img
-							src={assets.homeImg9}
+							src={assets.exhibition59}
 							alt=""
 						/>
 						{/* <div className={styles.hovereffect}>
