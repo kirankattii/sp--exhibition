@@ -301,14 +301,15 @@ import logo34 from "./logo/nora web-1.png";
 export const logos1 = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
 export const logos2 = [
-  logo8,
-  logo9,
+  logo3,
+  logo16,
+  logo21,
+  logo27,
+  logo24,
+  logo20,
   logo10,
-  logo11,
-  logo12,
-  logo13,
-  logo14,
   logo15,
+  logo8,
 ];
 
 export const logos3 = [

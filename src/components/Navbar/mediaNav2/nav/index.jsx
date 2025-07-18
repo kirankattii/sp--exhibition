@@ -43,7 +43,7 @@ const Nav = () => {
 			exit="exit"
 			className={styles.menu}
 		>
-			<div className={styles.body}>
+			<div className={styles.body} style={{marginTop:"-60px"}}>
 				<div
 					onMouseLeave={() => {
 						setSelectedIndicator(location.pathname)

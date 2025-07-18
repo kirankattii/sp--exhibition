@@ -1,16 +1,22 @@
 
 
 
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { assets } from "../../assets/assets";
 import styles from "./navbar.module.css";
 import { MediaNav2 } from "./mediaNav2";
 
+
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div className={styles.container}>
       <nav>
-        <img src={assets.new_logo2} alt="" />
+       <div style={{cursor:"pointer"}} onClick={()=>{
+        navigate("/")
+       }}>
+       <img src={assets.new_logo2} alt="" />
+       </div>
         <ul>
           <li>
             <NavLink to="/" className={({ isActive }) => isActive ? styles.active : ""}>HOME</NavLink>

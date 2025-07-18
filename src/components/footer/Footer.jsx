@@ -14,18 +14,18 @@ const Footer = () => {
           <img src={assets.new_logo2} alt="" />
           <ul>
             <li>
-              <Link to={""}>
+              <Link to={"https://www.facebook.com/spexhibitionservices/"} target="_blank">
                 {" "}
                 <FaFacebookF />
               </Link>
             </li>
             <li>
-              <Link to={"https://www.instagram.com/sp.exhibition/"}>
+              <Link to={"https://www.instagram.com/sp.exhibition/"} target="_blank">
                 <FaInstagram />
               </Link>
             </li>
             <li>
-              <Link to={"https://www.linkedin.com/in/hitesh-jain-516527133/"}>
+              <Link to={"https://www.linkedin.com/in/hitesh-jain-516527133/"} target="_blank">
                 <FaLinkedinIn />
               </Link>
             </li>
@@ -49,13 +49,13 @@ const Footer = () => {
         <ul className={styles.right}>
           <li>
             <p className={styles.footerheading}>Email:</p>
-            <a href="">spexhibitionservicesllp@gmail.com</a>
+            <a href="mailto:spexhibitionllp@gmail.com">spexhibitionllp@gmail.com</a>
           </li>
           <li>
             <p className={styles.footerheading}>Phone</p>
             <div>
-              <a href="">+91 7045380158</a>
-              <a href="">+91 9820229534</a>
+              <a href="tel:+917045380158">+91 7045380158</a>
+              <a href="tel:+919820229534">+91 9820229534</a>
             </div>
           </li>
           <li>
