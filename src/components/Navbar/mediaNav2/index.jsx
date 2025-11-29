@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, useRef } from "react"
 import { useLocation } from "react-router-dom"
 import { AnimatePresence } from "framer-motion"
 import styles from "./style.module.scss"
@@ -7,6 +7,7 @@ import Nav from "./nav/index"
 export function MediaNav2() {
 	const [isActive, setIsActive] = useState(false)
 	const location = useLocation()
+	const buttonRef = useRef(null)
 
 	useEffect(() => {
 		setIsActive(false)
@@ -17,6 +18,7 @@ export function MediaNav2() {
 			<div className={styles.main}  >
 				<div className={styles.header}>
 					<div
+						ref={buttonRef}
 						onClick={() => {
 							setIsActive(!isActive)
 						}}
@@ -30,7 +32,7 @@ export function MediaNav2() {
 					</div>
 				</div>
 			</div>
-			<AnimatePresence mode="wait">{isActive && <Nav />}</AnimatePresence>
+			<AnimatePresence mode="wait">{isActive && <Nav setIsActive={setIsActive} buttonRef={buttonRef} />}</AnimatePresence>
 		</>
 	)
 }

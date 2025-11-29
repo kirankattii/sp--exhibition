@@ -45,6 +45,23 @@
 				color: var(--gold);
 
 				font-weight: 300;
+				transition: all 0.3s ease;
+			}
+
+			.activeLink {
+				color: #B31731;
+				font-weight: 600;
+				position: relative;
+
+				&::after {
+					content: "";
+					position: absolute;
+					bottom: -5px;
+					left: 0;
+					height: 2px;
+					width: 100%;
+					background: #B31731;
+				}
 			}
 		}
 	}

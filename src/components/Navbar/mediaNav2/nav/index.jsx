@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, useRef } from "react"
 import { motion } from "framer-motion"
 import { useLocation } from "react-router-dom"
 import styles from "./style.module.scss"
@@ -27,16 +27,45 @@ const navItems = [
 	},
 ]
 
-const Nav = () => {
+const Nav = ({ setIsActive, buttonRef }) => {
 	const location = useLocation()
 	const [selectedIndicator, setSelectedIndicator] = useState(location.pathname)
+	const menuRef = useRef(null)
 
 	useEffect(() => {
 		setSelectedIndicator(location.pathname)
 	}, [location.pathname])
 
+	// Handle outside click to close menu
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			if (
+				menuRef.current && 
+				!menuRef.current.contains(event.target) &&
+				buttonRef.current &&
+				!buttonRef.current.contains(event.target)
+			) {
+				setIsActive(false)
+			}
+		}
+
+		document.addEventListener("mousedown", handleClickOutside)
+		return () => {
+			document.removeEventListener("mousedown", handleClickOutside)
+		}
+	}, [setIsActive, buttonRef])
+
+	const handleLinkClick = (href) => {
+		setSelectedIndicator(href)
+		// If clicking a menu item and already on that page, close menu
+		if (href === location.pathname) {
+			setIsActive(false)
+		}
+	}
+
 	return (
 		<motion.div
+			ref={menuRef}
 			variants={menuSlide}
 			initial="initial"
 			animate="enter"
@@ -60,7 +89,7 @@ const Nav = () => {
 							className={
 								selectedIndicator === data.href ? styles.activeLink : ""
 							}
-							onClick={() => setSelectedIndicator(data.href)}
+							onClick={() => handleLinkClick(data.href)}
 						>
 							{data.title}
 						</Link>
